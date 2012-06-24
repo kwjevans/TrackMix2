@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015968951597C892002AAE84 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015968941597C892002AAE84 /* Cocoa.framework */; };
+		0159689F1597C892002AAE84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0159689D1597C892002AAE84 /* InfoPlist.strings */; };
+		015968A11597C892002AAE84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 015968A01597C892002AAE84 /* main.m */; };
+		015968A51597C892002AAE84 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 015968A31597C892002AAE84 /* Credits.rtf */; };
+		015968A81597C892002AAE84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 015968A71597C892002AAE84 /* AppDelegate.m */; };
+		015968AB1597C892002AAE84 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 015968A91597C892002AAE84 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		015968901597C891002AAE84 /* TrackMix2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMix2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		015968941597C892002AAE84 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		015968971597C892002AAE84 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		015968981597C892002AAE84 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		015968991597C892002AAE84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0159689C1597C892002AAE84 /* TrackMix2-Info.plist */ = {isa = PBXFileReference; path = "TrackMix2-Info.plist"; sourceTree = "<group>"; };
+		0159689E1597C892002AAE84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		015968A01597C892002AAE84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		015968A21597C892002AAE84 /* TrackMix2-Prefix.pch */ = {isa = PBXFileReference; path = "TrackMix2-Prefix.pch"; sourceTree = "<group>"; };
+		015968A41597C892002AAE84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		015968A61597C892002AAE84 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		015968A71597C892002AAE84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		015968AA1597C892002AAE84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0159688D1597C891002AAE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015968951597C892002AAE84 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015968851597C890002AAE84 = {
+			isa = PBXGroup;
+			children = (
+				0159689A1597C892002AAE84 /* TrackMix2 */,
+				015968931597C891002AAE84 /* Frameworks */,
+				015968911597C891002AAE84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		015968911597C891002AAE84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				015968901597C891002AAE84 /* TrackMix2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		015968931597C891002AAE84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				015968941597C892002AAE84 /* Cocoa.framework */,
+				015968961597C892002AAE84 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		015968961597C892002AAE84 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				015968971597C892002AAE84 /* AppKit.framework */,
+				015968981597C892002AAE84 /* CoreData.framework */,
+				015968991597C892002AAE84 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0159689A1597C892002AAE84 /* TrackMix2 */ = {
+			isa = PBXGroup;
+			children = (
+				015968A61597C892002AAE84 /* AppDelegate.h */,
+				015968A71597C892002AAE84 /* AppDelegate.m */,
+				015968A91597C892002AAE84 /* MainMenu.xib */,
+				0159689B1597C892002AAE84 /* Supporting Files */,
+			);
+			path = TrackMix2;
+			sourceTree = "<group>";
+		};
+		0159689B1597C892002AAE84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0159689C1597C892002AAE84 /* TrackMix2-Info.plist */,
+				0159689D1597C892002AAE84 /* InfoPlist.strings */,
+				015968A01597C892002AAE84 /* main.m */,
+				015968A21597C892002AAE84 /* TrackMix2-Prefix.pch */,
+				015968A31597C892002AAE84 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0159688F1597C891002AAE84 /* TrackMix2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015968AE1597C892002AAE84 /* Build configuration list for PBXNativeTarget "TrackMix2" */;
+			buildPhases = (
+				0159688C1597C891002AAE84 /* Sources */,
+				0159688D1597C891002AAE84 /* Frameworks */,
+				0159688E1597C891002AAE84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackMix2;
+			productName = TrackMix2;
+			productReference = 015968901597C891002AAE84 /* TrackMix2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		015968871597C891002AAE84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0159688A1597C891002AAE84 /* Build configuration list for PBXProject "TrackMix2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 015968851597C890002AAE84;
+			productRefGroup = 015968911597C891002AAE84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0159688F1597C891002AAE84 /* TrackMix2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0159688E1597C891002AAE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0159689F1597C892002AAE84 /* InfoPlist.strings in Resources */,
+				015968A51597C892002AAE84 /* Credits.rtf in Resources */,
+				015968AB1597C892002AAE84 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0159688C1597C891002AAE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015968A11597C892002AAE84 /* main.m in Sources */,
+				015968A81597C892002AAE84 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0159689D1597C892002AAE84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0159689E1597C892002AAE84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		015968A31597C892002AAE84 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				015968A41597C892002AAE84 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		015968A91597C892002AAE84 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				015968AA1597C892002AAE84 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		015968AC1597C892002AAE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		015968AD1597C892002AAE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		015968AF1597C892002AAE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackMix2/TrackMix2-Prefix.pch";
+				INFOPLIST_FILE = "TrackMix2/TrackMix2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		015968B01597C892002AAE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackMix2/TrackMix2-Prefix.pch";
+				INFOPLIST_FILE = "TrackMix2/TrackMix2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0159688A1597C891002AAE84 /* Build configuration list for PBXProject "TrackMix2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015968AC1597C892002AAE84 /* Debug */,
+				015968AD1597C892002AAE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		015968AE1597C892002AAE84 /* Build configuration list for PBXNativeTarget "TrackMix2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015968AF1597C892002AAE84 /* Debug */,
+				015968B01597C892002AAE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 015968871597C891002AAE84 /* Project object */;
+}
