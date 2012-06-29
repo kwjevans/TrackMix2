@@ -12,4 +12,12 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+// KE - Outlets
+@property (assign) IBOutlet NSTextField *textField;
+@property (assign) IBOutlet NSSlider *slider;
+
+// KE - Target-Action Connections
+- (IBAction)takeFloatValueforVolumeFrom:(id)sender;
+- (IBAction)mute:(id)sender;
+
 @end
